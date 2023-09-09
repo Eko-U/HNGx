@@ -24,9 +24,9 @@ h1 {
 }
 
 .profile-container {
-  max-width: 35rem;
-  margin: 20rem auto;
+  max-width: 36rem;
   padding: 2rem;
+  margin: 10rem auto;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 
@@ -64,5 +64,11 @@ h1 {
   font-size: 2rem;
   margin-top: 2rem;
   text-align: center;
+  color: grey;
+  transition: all 0.2s;
+}
+
+.github-url:hover {
   color: rgb(102, 28, 213);
+  font-style: italic;
 }

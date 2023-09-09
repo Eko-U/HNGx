@@ -6,6 +6,8 @@ const currentUTCTime = document.querySelector('.current-time');
 const hngTrack = document.querySelector('.hng-track');
 const curDayIndex = new Date().getUTCDay();
 
+const githubLink = document.querySelector('.github-url');
+
 const week = [
   'Sunday',
   'Monday',
@@ -26,3 +28,5 @@ currentUTCTime.setAttribute('data-testid', currentUTCTime.textContent);
 console.log(currentUTCTime);
 
 hngTrack.setAttribute('data-testid', hngTrack.textContent);
+
+githubLink.setAttribute('data-testid', githubLink.href);
