@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'inter', sans-serif;
+  font-weight: 500;
+  background-color: rgb(226, 226, 226);
+}
+
+p,
+h1 {
+  color: rgb(102, 28, 213);
+  font-size: 2rem;
+}
+
+.profile-container {
+  max-width: 35rem;
+  margin: 20rem auto;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+  background-color: #fff;
+  display: grid;
+}
+
+.profile-items {
+  display: flex;
+  align-items: center;
+}
+
+.profile-items:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.profile-items span {
+  flex-basis: 45%;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: grey;
+}
+
+.slack-profile-img {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  margin-bottom: 4rem;
+
+  border: 3px solid rgb(102, 28, 213);
+  justify-self: center;
+}
+
+.github-url {
+  font-size: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: rgb(102, 28, 213);
+}
