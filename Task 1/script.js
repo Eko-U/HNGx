@@ -16,4 +16,4 @@ const week = [
 
 currentDay.textContent = week[curDayIndex];
 
-currentUTCTime.textContent = Date.now();
+setInterval(() => (currentUTCTime.textContent = Date.now()), 1000);
